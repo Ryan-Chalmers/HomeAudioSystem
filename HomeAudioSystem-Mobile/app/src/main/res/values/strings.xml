@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">HomeAudioSystem-Mobile</string>
+    <string name="action_settings">Settings</string>
+    <string name="newalbumtitle_hint">title of album?</string>
+    <string name="newalbum_button">Add Album</string>
+    <string name="newalbumgenre_hint">album genre?</string>
+    <string name="newalbum_date_label">Release Date?</string>
+    <string name="newalbum_date_first">01-01-2016</string>
+    <string name="albumspinner_label">Album?</string>
+    <string name="artistspinner_label">Artist?</string>
+    <string name="songspinner_label">Song?</string>
+    <string name="playlistspinner_label">Playlist?</string>
+    <string name="locationspinner_label">Location?</string>
+    <string name="newartistname_hint">name of artist?</string>
+    <string name="newartist_button">Add Artist</string>
+    <string name="newsongtitle_hint">title of song?</string>
+    <string name="newsong_button">Add Song</string>
+    <string name="newplaylistname_hint">name of playlist?</string>
+    <string name="newplaylist_button">Add Playlist</string>
+    <string name="addsongtoplaylist_button">Add Song To Playlist</string>
+    <string name="assignsongtolocation_button">Assign Song</string>
+    <string name="assignalbumtolocation_button">Assign Album</string>
+    <string name="assignplaylisttolocation_button">Assign Playlist</string>
+    <string name="clearalllocations_button">Clear All Locations</string>
+    <string name="playmusicinassignedlocations_button">Play All</string>
+    <string name="newvolume_hint">new volume?</string>
+    <string name="changevolumeoflocation_button">Change Volume</string>
+    <string name="newlocationname_hint">location name?</string>
+    <string name="newlocation_button">Add Location</string>
+    <string name="genrespinner_label">Genre?</string>
+    <string name="newsongduration_hint">duration?</string>
+    <string name="playpause_button">play/pause</string>
+    <string name="pausealllocations_button">Pause All</string>
+    <string name="clearlocation_button">Clear</string>
+    <string name="muteunmutelocation_button">Mute/Unmute</string>
+</resources>

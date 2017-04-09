@@ -1,0 +1,44 @@
+<ca.mcgill.ecse321.HomeAudioSystem.model.HAS id="1">
+  <songs id="2">
+    <song id="3">
+      <title>Aria</title>
+      <duration>02:33</duration>
+      <positionInAlbum>0</positionInAlbum>
+      <album id="4">
+        <title>Goldberg Variations BWV 988</title>
+        <genre>Classic</genre>
+        <releaseDate id="5">2015-02-17</releaseDate>
+        <songs id="6">
+          <song reference="3"/>
+        </songs>
+      </album>
+      <artist id="7">
+        <name>J.S.Bach</name>
+        <songs id="8">
+          <song reference="3"/>
+        </songs>
+      </artist>
+    </song>
+  </songs>
+  <albums id="9">
+    <album reference="4"/>
+  </albums>
+  <artists id="10">
+    <artist reference="7"/>
+  </artists>
+  <playlists id="11">
+    <playlist id="12">
+      <name>playlist</name>
+      <songs id="13"/>
+    </playlist>
+  </playlists>
+  <locations id="14">
+    <location id="15">
+      <name>Living Room</name>
+      <volume>0</volume>
+      <beforeMuted>0</beforeMuted>
+      <isPlaying>false</isPlaying>
+      <time>0</time>
+    </location>
+  </locations>
+</ca.mcgill.ecse321.HomeAudioSystem.model.HAS>

@@ -1,0 +1,50 @@
+namespace ca.mcgill.ecse321.HomeAudioSystem.model;
+class Song
+{
+  title;
+  duration;
+  lazy int positionInAlbum;
+}
+
+class Album
+{
+  title;
+  genre;
+  Date releaseDate;
+  1 -- * Song songs;
+}
+
+class Artist
+{
+  name;
+  1 -- * Song songs;
+}
+
+class Playlist
+{
+  name;
+  //autounique id;  
+  * -> * Song songs;  
+}
+
+class Location
+{
+  name;
+  lazy int volume;
+  lazy int beforeMuted;
+  lazy boolean isPlaying;;
+  lazy int time;
+  1 -> 0..1 Song song;
+  1 -> 0..1 Album album;
+  1 -> 0..1 Playlist playlist;
+}
+
+class HAS
+{
+  singleton;
+  1 -> * Song songs;
+  1 -> * Album albums;
+  1 -> * Artist artists;
+  1 -> * Playlist playlists; 
+  1 -> * Location locations;
+}

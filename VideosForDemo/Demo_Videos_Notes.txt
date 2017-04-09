@@ -1,0 +1,23 @@
+Demo:
+
+Java (4min15sec)
+
+	Java1: Add song (~2min)
+		- Add Album, Add Artist --> Add Song --> Show persistence
+		- Add Song without album or artist --> Show persistence
+		- Add Song without album --> Show persistence
+	 
+	Java 2: Playlists and locations (~30sec)
+		- Create Playlist + assign a song to it --> Show persistence
+		- Create one locations
+		
+	Java 3: Playing music (~1min45sec)
+		- Assign song/album/artist to the three locations
+		- PlayAll, pause, pauseAll, play, pause (location empty)
+		- clear, change volume, mute-ummute, clearAllLocations
+	
+
+Android: Playing music (1min30sec)
+	- Assign album to location with song already assigned
+	- Clear , Play/Pause empty location, clearAllLocations
+	- Assign song to living room then change volume

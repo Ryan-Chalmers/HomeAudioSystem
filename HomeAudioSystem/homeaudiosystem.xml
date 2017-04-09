@@ -1,0 +1,184 @@
+<audiosystem id="1">
+  <songs id="2">
+    <song id="3">
+      <title>Take 5</title>
+      <duration>05:30</duration>
+      <positionInAlbum>1</positionInAlbum>
+      <album id="4">
+        <title>Take Five</title>
+        <genre>JAZZ</genre>
+        <releaseDate id="5">2016-02-17</releaseDate>
+        <songs id="6">
+          <song reference="3"/>
+          <song id="7">
+            <title>1</title>
+            <duration>2</duration>
+            <positionInAlbum>3</positionInAlbum>
+            <album reference="4"/>
+            <artist id="8">
+              <name>The Dave Brubeck Quartet</name>
+              <songs id="9">
+                <song reference="3"/>
+                <song reference="7"/>
+                <song id="10">
+                  <title>Take 6</title>
+                  <duration>04:30</duration>
+                  <positionInAlbum>1</positionInAlbum>
+                  <album reference="4"/>
+                  <artist reference="8"/>
+                </song>
+                <song id="11">
+                  <title>testing</title>
+                  <duration>04:30</duration>
+                  <positionInAlbum>1</positionInAlbum>
+                  <album id="12">
+                    <title>No Album</title>
+                    <genre>others</genre>
+                    <releaseDate id="13">2016-04-15</releaseDate>
+                    <songs id="14">
+                      <song reference="11"/>
+                      <song id="15">
+                        <title>test2</title>
+                        <duration>03:22</duration>
+                        <positionInAlbum>2</positionInAlbum>
+                        <album reference="12"/>
+                        <artist id="16">
+                          <name>Michael Jackson</name>
+                          <songs id="17">
+                            <song id="18">
+                              <title>Thriller</title>
+                              <duration>05:58</duration>
+                              <positionInAlbum>1</positionInAlbum>
+                              <album id="19">
+                                <title>Thriller</title>
+                                <genre>Pop</genre>
+                                <releaseDate id="20">1982-11-30</releaseDate>
+                                <songs id="21">
+                                  <song reference="18"/>
+                                </songs>
+                              </album>
+                              <artist reference="16"/>
+                            </song>
+                            <song reference="15"/>
+                          </songs>
+                        </artist>
+                      </song>
+                    </songs>
+                  </album>
+                  <artist reference="8"/>
+                </song>
+              </songs>
+            </artist>
+          </song>
+          <song reference="10"/>
+        </songs>
+      </album>
+      <artist reference="8"/>
+    </song>
+    <song id="22">
+      <title>Aria</title>
+      <duration>02:30</duration>
+      <positionInAlbum>1</positionInAlbum>
+      <album id="23">
+        <title>Goldberg Variations BWV 988</title>
+        <genre>Classical</genre>
+        <releaseDate id="24">2015-02-17</releaseDate>
+        <songs id="25">
+          <song reference="22"/>
+        </songs>
+      </album>
+      <artist id="26">
+        <name>J.S.Bach</name>
+        <songs id="27">
+          <song reference="22"/>
+        </songs>
+      </artist>
+    </song>
+    <song reference="18"/>
+    <song reference="11"/>
+    <song reference="15"/>
+  </songs>
+  <albums id="28">
+    <album reference="4"/>
+    <album reference="23"/>
+    <album reference="19"/>
+    <album reference="12"/>
+  </albums>
+  <artists id="29">
+    <artist reference="8"/>
+    <artist reference="26"/>
+    <artist reference="16"/>
+  </artists>
+  <playlists id="30">
+    <playlist id="31">
+      <name>Playlist 1</name>
+      <songs id="32">
+        <song reference="18"/>
+        <song reference="3"/>
+      </songs>
+    </playlist>
+    <playlist id="33">
+      <name>Playlist 2</name>
+      <songs id="34">
+        <song reference="18"/>
+      </songs>
+    </playlist>
+  </playlists>
+  <locations id="35">
+    <location id="36">
+      <name>Living Room</name>
+      <volume>21</volume>
+      <beforeMuted>0</beforeMuted>
+      <isPlaying>true</isPlaying>
+      <time>150</time>
+      <album reference="23"/>
+    </location>
+    <location id="37">
+      <name>Bedroom</name>
+      <volume>13</volume>
+      <beforeMuted>0</beforeMuted>
+      <isPlaying>true</isPlaying>
+      <time>150</time>
+      <album reference="23"/>
+    </location>
+    <location id="38">
+      <name>Kitchen</name>
+      <volume>30</volume>
+      <beforeMuted>0</beforeMuted>
+      <isPlaying>true</isPlaying>
+      <time>150</time>
+      <album reference="23"/>
+    </location>
+    <location id="39">
+      <name>Basement</name>
+      <volume>11</volume>
+      <beforeMuted>0</beforeMuted>
+      <isPlaying>true</isPlaying>
+      <time>358</time>
+      <playlist reference="33"/>
+    </location>
+    <location id="40">
+      <name>Bedroom2</name>
+      <volume>15</volume>
+      <beforeMuted>0</beforeMuted>
+      <isPlaying>true</isPlaying>
+      <time>330</time>
+    </location>
+    <location id="41">
+      <name>Bedroom3</name>
+      <volume>15</volume>
+      <beforeMuted>0</beforeMuted>
+      <isPlaying>true</isPlaying>
+      <time>330</time>
+      <album reference="4"/>
+    </location>
+    <location id="42">
+      <name>Dining Room</name>
+      <volume>18</volume>
+      <beforeMuted>0</beforeMuted>
+      <isPlaying>false</isPlaying>
+      <time>472</time>
+      <album reference="12"/>
+    </location>
+  </locations>
+</audiosystem>

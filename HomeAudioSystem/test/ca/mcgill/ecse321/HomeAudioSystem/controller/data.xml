@@ -1,0 +1,36 @@
+<ca.mcgill.ecse321.HomeAudioSystem.model.HAS id="1">
+  <songs id="2"/>
+  <albums id="3">
+    <album id="4">
+      <title>Get Rich or Die tryin</title>
+      <genre>Hip Hop</genre>
+      <releaseDate id="5">2015-02-17</releaseDate>
+      <songs id="6">
+        <song id="7">
+          <title>21 Questions</title>
+          <duration>03:34</duration>
+          <positionInAlbum>0</positionInAlbum>
+          <album reference="4"/>
+          <artist id="8">
+            <name>50 Cent</name>
+            <songs id="9">
+              <song reference="7"/>
+            </songs>
+          </artist>
+        </song>
+      </songs>
+    </album>
+  </albums>
+  <artists id="10"/>
+  <playlists id="11"/>
+  <locations id="12">
+    <location id="13">
+      <name>Kitchen</name>
+      <volume>0</volume>
+      <beforeMuted>0</beforeMuted>
+      <isPlaying>false</isPlaying>
+      <time>214</time>
+      <album reference="4"/>
+    </location>
+  </locations>
+</ca.mcgill.ecse321.HomeAudioSystem.model.HAS>
